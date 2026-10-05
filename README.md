@@ -1,21 +1,29 @@
-## Hi, I'm Tianda Sun 👋
+## Hi, I'm Tianda Sun
 
-Final-year **Computer Science PhD** at the **University of York** (expected Dec 2026), working on
-**knowledge-graph-guided LLM reasoning, agentic tool use, and mechanistic interpretability**.
+Final-year **Computer Science PhD candidate at the University of York**, working on
+**LLM reasoning and agentic tool use**, with research in evaluation,
+RL post-training, and mechanistic interpretability.
 
-My focus: building **rigorous, reproducible evaluations** of how LLM agents reason and use tools —
-benchmark design, tool-call failure-mode analysis, and what agents actually represent internally.
+### Selected accepted papers
 
-### 📝 Papers under review at EMNLP 2026
-- **KinshipQA** — contamination-proof benchmark for multi-hop reasoning across 7 culturally diverse kinship systems
-  · [arXiv:2601.07794](https://arxiv.org/abs/2601.07794) · [code](https://github.com/TiandaSun/Kinship-Data-Benchmark-for-Multi-hop-Reasoning)
-- **Peak-Then-Collapse** — GRPO post-training for knowledge-graph tool use; interface feedback as the bottleneck behind train-time collapse
-  · [arXiv:2605.26037](https://arxiv.org/abs/2605.26037) · [code](https://github.com/TiandaSun/KG_GRPO)
-- **Tool-Call Dependency Structure is Linearly Decodable** — probing how agents represent tool-call dependencies in residual streams
-  · [arXiv:2605.25310](https://arxiv.org/abs/2605.25310) · [code](https://github.com/TiandaSun/toolcall-dependency-probe)
+- **Peak-Then-Collapse and the Four Interface Channels of Knowledge-Graph Tool Use** — **EMNLP 2026 Main Conference, accepted**. GRPO post-training, training-collapse diagnosis, and interface feedback.
+  [Paper](https://arxiv.org/abs/2605.26037) · [Code](https://github.com/TiandaSun/KG_GRPO)
+- **Kinship Data Benchmark for Multi-hop Reasoning (KinshipQA)** — **Findings of EMNLP 2026, accepted**. Procedurally generated evaluation across seven kinship systems and up to six reasoning hops.
+  [Paper](https://arxiv.org/abs/2601.07794) · [Code](https://github.com/TiandaSun/Kinship-Data-Benchmark-for-Multi-hop-Reasoning)
 
-### 🔬 Earlier
-- **KGEIR** — knowledge-graph-enhanced iterative reasoning (RANLP 2025 workshop) · [code](https://github.com/TiandaSun/KGEIR)
+### Manuscripts under review
 
-### 🔗 Links
-🌐 [Website](https://tiandasun.github.io/) · 🎓 [Google Scholar](https://scholar.google.com/citations?user=eUuCj38AAAAJ) · 📧 tianda.sun@york.ac.uk
+- **Tool-Call Dependency Structure is Linearly Decodable in LLM Agent Residual Streams** — probing runtime dependency representations with controlled experiments and activation patching.
+  [arXiv preprint](https://arxiv.org/abs/2605.25310) · [Code](https://github.com/TiandaSun/toolcall-dependency-probe)
+- **From Target Selection to Condition Reuse: Auditing Residual Interventions in Tool-Use Models** — auditing whether residual edits transfer beyond familiar target selection to condition reuse, independent judgments, and complete actions.
+  [Manuscript PDF](https://github.com/TiandaSun/residual-condition-reuse/blob/main/paper/condition_reuse.pdf) · [Code and archived demo](https://github.com/TiandaSun/residual-condition-reuse)
+  arXiv link to follow after announcement.
+
+### Earlier work
+
+- **KGEIR** — knowledge-graph-enhanced iterative reasoning, RANLP 2025 R2LM workshop.
+  [Paper](https://aclanthology.org/2025.r2lm-1.14/) · [Code](https://github.com/TiandaSun/KGEIR)
+
+### Links
+
+[Website and CV](https://tiandasun.github.io/) · [Google Scholar](https://scholar.google.com/citations?user=eUuCj38AAAAJ) · [LinkedIn](https://www.linkedin.com/in/tianda-sun-042049238/) · [Email](mailto:tianda.sun@york.ac.uk)
